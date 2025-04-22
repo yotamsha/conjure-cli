@@ -23,8 +23,10 @@ This approach offers several benefits:
 The user can opt to commit the generated code to their repository. This allows for versioning and tracking of changes to the generated code. (Recommended)
 
 # Install dependencies
-npm install -g conjure-cli
 
+```bash
+npm install -g conjure-cli
+```
 ### CLI Usage
 
 The package includes a command-line interface with the following commands:
