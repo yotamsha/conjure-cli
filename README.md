@@ -48,7 +48,7 @@ Options:
 
 ### Creating Specifications
 
-Create a spec file (e.g., `mySpecs.js`) with the following structure:
+Create a spec file (should end with `.spec.def.js`, e.g. `functions.spec.def.js`) with the following structure:
 
 ```javascript
 module.exports = {
