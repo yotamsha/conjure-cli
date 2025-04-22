@@ -10,7 +10,7 @@ require('dotenv').config();
  * @param {string} dir Directory to search
  * @returns {Array} Array of file paths
  */
-function findSpecFiles(dir = './specs') {
+function findSpecFiles(dir = './') {
   let results = [];
   
   const items = fs.readdirSync(dir);
@@ -128,7 +128,7 @@ function validateCode(code, spec) {
  * @param {Object} options Additional options
  * @param {boolean} options.force Force regeneration of all specs
  */
-async function buildSpecs(specsDir = './specs', outputDir = './generated', options = {}) {
+async function buildSpecs(specsDir = './', outputDir = './generated', options = {}) {
   const { force = false } = options;
   
   // Ensure output directory exists
@@ -202,7 +202,7 @@ if (require.main === module) {
   const args = process.argv.slice(2);
   const force = args.includes('--force');
   
-  buildSpecs('./specs', './generated_modules', { force }).catch(error => {
+  buildSpecs('./', './generated_modules', { force }).catch(error => {
     console.error('Error building specs:', error);
     process.exit(1);
   });
