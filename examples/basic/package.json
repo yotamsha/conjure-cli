@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "node ./../../cli/build.js",
+    "build": "node ./../../cli/index.js build",
+    "clean": "node ./../../cli/index.js clean",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
