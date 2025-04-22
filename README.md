@@ -72,7 +72,7 @@ module.exports = {
 
 ### Example
 
-Check out the `examples/basic` directory for a simple example of how to use spec-based functions.
+Check out the `examples` directory for a simple example of how to use spec-based functions.
 
 ## Requirements
 
