@@ -1,17 +1,14 @@
 {
-  "name": "basic",
+  "name": "advanced",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "node_modules/.bin/conjure build",
-    "clean": "node_modules/.bin/conjure clean",
+    "build": "node ./../../cli/index.js build",
+    "clean": "node ./../../cli/index.js clean",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "conjure-cli": "^1.0.0"
-  }
+  "license": "ISC"
 }

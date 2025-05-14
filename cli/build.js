@@ -40,7 +40,7 @@ function constructPrompt(spec) {
 - Description: ${spec.description}
 - Detailed requirements: ${spec.specifications.map(s => s.description).join('\n')}
 - Sample inputs/outputs: ${JSON.stringify(spec.specifications.flatMap(s => s.sampleExpectations))}
-- The function should take parameters matching the sample inputs
+- The function should take parameters matching the sample inputs, each property as a separate argument
 - Return an object with properties matching the sample outputs
 - The function should be named 'run'
 - IMPORTANT: Return ONLY the JavaScript code without any markdown formatting, code block syntax, or explanations. Do not include \`\`\`javascript or \`\`\` tags.`;

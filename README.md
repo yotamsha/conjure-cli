@@ -1,10 +1,10 @@
-# Spec-Based Functions
+# Conjure: Auto-Generating Spec-Based Functions
 
-A framework for generating and managing code based on specifications using AI.
+An experimental framework for generating and managing code based on specifications using AI.
 
 ## Project Vision
 
-Spec-Based Functions enables a specification-first approach to software development. Instead of writing implementation code directly, you define what your functions should do using clear specifications. The system then leverages AI to generate the actual implementation code.
+Conjure enables a specification-first approach to software development. Instead of writing implementation code directly, you define what your functions should do using clear specifications. The system then leverages AI to generate the actual implementation code.
 
 ### Workflow
 
