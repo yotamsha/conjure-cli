@@ -78,3 +78,7 @@ Check out the `examples` directory for a simple example of how to use spec-based
 
 - Node.js 18 or higher
 - Google Gemini API key
+
+## Links
+
+- npm: [https://www.npmjs.com/package/conjure-cli](https://www.npmjs.com/package/conjure-cli)
